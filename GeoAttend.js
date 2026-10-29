@@ -1894,7 +1894,7 @@
 
     var modeBadge = byId('runtime-mode-badge');
     if (appState.isAppsScriptRuntime || (appState.useRemoteFetchApi && APPS_SCRIPT_WEB_APP_URL)) {
-      modeBadge.textContent = 'Designec By Harsh';
+      modeBadge.textContent = 'Design By Harsh';
       modeBadge.className = 'mode-badge';
       byId('local-simulator-bar').classList.add('hidden');
     } else {
